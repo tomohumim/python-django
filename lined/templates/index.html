@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<div lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href="{% static "css/style.css" %}"/>
+ <!-- Custom styles for this template -->
+<link rel="stylesheet"  href="{% static "css/reset.css" %}"/>
+    {%block head%}{%endblock%}
+</head>
+   <header class="main_header">
+    <div class="box_header_inner">
+        <div class="header_logo"></div>
+			<div class="header_logo">
+				<a href="#/search/grid/" ui-sref="search/grid"><img src="https://static-pairs.akamaized.net/public/img/pc/img_jp/common/pairs_logo.png" width="88"></a>
+			</div>
+        </div>
+   </header>
+
+<div class="wrapper">
+    <div class="side_bar">
+        <div class="my_profile">
+            <div class="my_profile_photo">
+                <img height="60" width="60" src="{% static 'img/images.jpeg'%}" alt="">
+            </div>
+
+        <div class="profile_name">ひまわり</div>
+        <div class="profile_status">
+            <ul class="my_status_list">
+                <li class="my_status_left">
+                    <p class="status_label">残りいいね数</p>
+                    <p class="status_value">559</p></li>
+                <li class="my_status_right">
+                    <p class="status_label">ポイント残高</p></li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.main_header{
+    display:flex;
+    }
+ .box_header_inner{
+    line-height: 1;
+    position: relative;
+    width: 928px;
+    margin: 0 auto;
+    padding: 14px 0;
+    color:blue;
+  }
+.header_logo{
+
+}
+.wrapper{
+    display: table;
+    width: 928px;
+    height: 100%;
+    margin: 0 auto;
+    }
+   .side_bar{
+    width: 188px;
+    padding-top: 15px;
+    vertical-align: top;
+    border-right: 1px solid #cbced0;
+    border-left: 1px solid #cbced0;
+
+    }
+.my_profile{
+    text-align:center;
+    }
+   img{
+   border-radius: 50%;
+   }
+ .my_status_list{
+   display:flex;
+    font-size:12px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #cbced0;
+    }
+ .my_status_left{
+   float: left;
+    box-sizing: border-box;
+    width: 50%;
+    list-style: none;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+
+    border-right: 1px solid #cbced0;
+
+   }
+   .my_status_right{
+   list-style: none;
+   float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+   }
